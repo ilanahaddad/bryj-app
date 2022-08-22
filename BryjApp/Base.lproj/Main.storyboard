@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XsL-7L-fGN">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="BryjApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sjR-bZ-DGq">
+                        <barButtonItem key="leftBarButtonItem" image="BurgerMenu" id="woI-xm-Nfm">
+                            <connections>
+                                <action selector="burgerMenuPressed:" destination="BYZ-38-t0r" id="F3U-ZZ-tlW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-733" y="1579"/>
+        </scene>
+        <!--Shop View Controller-->
+        <scene sceneID="xId-fC-qD4">
+            <objects>
+                <viewController id="fR8-pW-Aru" customClass="ShopViewController" customModule="BryjApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fbb-Qj-CDo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="M6v-Ex-jLj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tOI-2i-wIx">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="BurgerMenu" id="BRy-zL-hKb">
+                            <connections>
+                                <action selector="burgerMenuPressed:" destination="fR8-pW-Aru" id="e9q-I9-z2A"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0JB-L5-IhI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="183" y="1578"/>
+        </scene>
+        <!--Bag View Controller-->
+        <scene sceneID="ff7-ia-Ike">
+            <objects>
+                <viewController id="Iiz-hq-Xww" customClass="BagViewController" customModule="BryjApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wgK-ov-j6W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="C7k-aa-nvu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eYM-wF-jWx">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="BurgerMenu" id="g3k-QK-EHb">
+                            <connections>
+                                <action selector="burgerMenuPressed:" destination="Iiz-hq-Xww" id="dlN-tU-KY5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ltz-E5-06Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2106" y="1578"/>
+        </scene>
+        <!--Account View Controller-->
+        <scene sceneID="DOD-JG-Kvh">
+            <objects>
+                <viewController id="NUT-0D-AVt" customClass="AccountViewController" customModule="BryjApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vWo-Nm-eC7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Qdr-L8-ZXg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Dl6-DQ-PDT">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="BurgerMenu" id="QQG-zG-Awv">
+                            <connections>
+                                <action selector="burgerMenuPressed:" destination="NUT-0D-AVt" id="5bs-6D-Vyz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Is-9o-cFK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1158" y="1578"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="k14-wQ-6FB">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="XsL-7L-fGN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c0q-xd-Gai">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="5wb-T6-Wm8" kind="relationship" relationship="viewControllers" id="UGf-II-UUB"/>
+                        <segue destination="ExD-8G-Lac" kind="relationship" relationship="viewControllers" id="86n-83-WTa"/>
+                        <segue destination="Pjs-lg-vmB" kind="relationship" relationship="viewControllers" id="5VH-BT-YOm"/>
+                        <segue destination="Qj9-uI-PVq" kind="relationship" relationship="viewControllers" id="zxx-Oo-MKQ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="upM-av-UCq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="623" y="-54"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eNC-0V-LAR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5wb-T6-Wm8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="HomeIcon" id="NCP-gx-VEd"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="F9d-f1-Kla">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="YEm-A5-71D"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iuk-GR-5rg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-733.33333333333337" y="799.55357142857144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wwL-Kd-Ahe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ExD-8G-Lac" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="ShopIcon" id="i48-aG-qVf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b35-Et-Zr2">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fR8-pW-Aru" kind="relationship" relationship="rootViewController" id="ye9-fJ-3wb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lnJ-MA-p3b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184" y="800"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4Ba-81-eDZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Pjs-lg-vmB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="AccountIcon" id="NOr-Sb-sFQ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HzA-S7-iLq">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NUT-0D-AVt" kind="relationship" relationship="rootViewController" id="beO-Zp-Jxi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A2y-ey-3k1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1158" y="800"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="f4A-3p-XiG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qj9-uI-PVq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="BagIcon" id="4Cj-s9-pr9"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H7M-EY-Gv7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Iiz-hq-Xww" kind="relationship" relationship="rootViewController" id="JhK-lT-gAe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vvu-m9-vZZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2107" y="800"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AccountIcon" width="25" height="25"/>
+        <image name="BagIcon" width="25" height="25"/>
+        <image name="BurgerMenu" width="25" height="25"/>
+        <image name="HomeIcon" width="22.5" height="25"/>
+        <image name="ShopIcon" width="23.5" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
